@@ -16,9 +16,17 @@ const projects = [
     title: "AirLine Management System",
     description: "A beautiful Landing page using HTML, CSS and JS",
     image: "/Projects/airLine.jpg",
-    tags: ["Html", "Css", "Js"],
+    tags: ["Html", "Css"],
     demoUrl: "#",
     // gitUrl: "https://github.com/tusharbaidya/fullStack-ChatApp",
+  },
+  {
+    id: 3,
+    title: "Amigo Service Website",
+    description: "A beautiful Landing page using HTML, CSS, JS, Php",
+    image: "/Projects/Amigo.png",
+    tags: ["Html", "Css", "Js", "Php"],
+    demoUrl: "#",
   },
 ];
 
@@ -37,7 +45,7 @@ export const ProjectsSection = () => {
           and framework.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, key) => (
             <div
               key={key}
