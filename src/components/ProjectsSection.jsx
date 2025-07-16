@@ -18,7 +18,7 @@ const projects = [
     image: "/Projects/airLine.jpg",
     tags: ["Html", "Css"],
     demoUrl: "#",
-    // gitUrl: "https://github.com/tusharbaidya/fullStack-ChatApp",
+    gitUrl: "https://github.com/tusharbaidya/airline-management-system",
   },
   {
     id: 3,
